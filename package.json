@@ -1,8 +1,8 @@
 {
-  "name": "zodiaclabs.io",
+  "name": "riversidespirits.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zodiaclabs.io",
+  "homepage": "https://riversidespirits.io",
   "dependencies": {
     "@material-ui/core": "^4.1.1",
     "@material-ui/icons": "^4.2.0",
