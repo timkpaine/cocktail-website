@@ -1,8 +1,8 @@
 {
-  "name": "riversidespirits.io",
+  "name": "barrelcocktail.co",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://riversidespirits.io",
+  "homepage": "https://barrelcocktail.co",
   "dependencies": {
     "@material-ui/core": "^4.1.1",
     "@material-ui/icons": "^4.2.0",
