@@ -1,6 +1,6 @@
 import './App.css';
 
-import { brown } from '@material-ui/core/colors';
+import { grey } from '@material-ui/core/colors';
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 import React from 'react';
 
@@ -8,8 +8,8 @@ import Routes from './routes';
 
 const theme = responsiveFontSizes(createMuiTheme({
   palette: {
-    secondary: { light: brown[400], main: brown[600], dark: '#1B0B00' },
-    primary: { light: brown[50], main: brown[100], dark: brown[20] },
+    secondary: { light: '#000', main: '#000', dark: '#000' },
+    primary: { light: grey[50], main: grey[100], dark: grey[20] },
   },
   typography: {
     // Use the system font instead of the default Roboto font.

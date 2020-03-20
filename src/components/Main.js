@@ -167,7 +167,7 @@ class Main extends Component {
               <Paper className={classes.paper}>
                 <div className={classes.box}>
                   <Typography variant="h4" className={classes.title} gutterBottom>
-                  Custom made cocktails, aged in oak
+                  Hand-crafted cocktails, aged in oak
                   </Typography>
                   <Typography variant="subtitle1" gutterBottom color="primary">
                   Cocktails are aged in small (1 to 5 liter) charred white American oak barrels. Our current lineup of cocktails includes:

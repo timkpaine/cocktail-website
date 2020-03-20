@@ -95,8 +95,7 @@ class Topbar extends Component {
               <div className={classes.inline}>
                 <Typography variant="h6" color="inherit" noWrap>
                   <Link to="/" className={classes.link}>
-                    {/* <img width={30} height={30} src="zodiac.png" alt="" /> */}
-                    <span className={classes.tagline}>Riverside</span>
+                    <img width={140} height={30} src="logo.png" alt="" />
                   </Link>
                 </Typography>
               </div>
