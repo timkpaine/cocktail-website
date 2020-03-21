@@ -48,16 +48,14 @@ const Footer = (props) => {
       <Grid item xs={12} className={classes.flex}>
         <Typography variant="body1" color="inherit" noWrap>
           <Link to="/" className={classes.link}>
-            <span>
-            Riverside Spirits
-            </span>
+          <img width={140} height={30} src="logo.png" alt="" />
           </Link>
         </Typography>
         <Typography variant="body1" color="inherit" noWrap>
           <span>© 2020</span>
         </Typography>
         <Typography variant="body1" color="inherit" noWrap>
-          <span>RiversideSpirits.io</span>
+          <span>barrelcocktail.co</span>
         </Typography>
       </Grid>
     </div>
