@@ -51,6 +51,7 @@
     "eslint-plugin-react-hooks": "^1.7.0"
   },
   "resolutions": {
+    "acorn": "^6.4.1",
     "kind-of": "^6.0.3",
     "minimist": "^0.2.1"
   }
