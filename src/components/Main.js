@@ -177,6 +177,7 @@ class Main extends Component {
                     <span style={{marginLeft: 20}}><strong>Old Fashioned</strong> - Rye Whiskey, Tiple Sec, Aromatic Bitters, Orange Bitters (Aged 1 year equivalent)</span>
                     <span style={{marginLeft: 20}}><strong>Manhattan</strong> - Bourbon, Sweet Vermouth, Tiple Sec, Aromatic Bitters, Orange Bitters (Aged 6 mo eq.)</span>
                     <span style={{marginLeft: 20}}><strong>Negroni</strong> - Gin, Campari, Sweet Vermouth (Aged 1 yr eq.)</span>
+                    <span style={{marginLeft: 20}}><strong>Boulevardier</strong> - Bourbon, Campari, Sweet Vermouth (Aged 1 yr eq.)</span>
                   </div>
                   </Typography>
 
