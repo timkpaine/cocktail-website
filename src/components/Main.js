@@ -191,9 +191,11 @@ class Main extends Component {
                   </Typography>
                 </div>
                 <div className={classes.buttonBar}>
-                  <Button color="primary" variant="outlined" className={classes.actionButton} component={Link} to="mailto:timothy.k.paine@gmail.com">
+                  <a href="mailto:timothy.k.paine@gmail.com">
+                  <Button color="primary" variant="outlined" className={classes.actionButton}>
                     More Information
                   </Button>
+                  </a>
                 </div>
               </Paper>
             </Grid>
