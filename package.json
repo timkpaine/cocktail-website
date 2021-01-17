@@ -8,6 +8,7 @@
     "@material-ui/icons": "^4.2.0",
     "@material-ui/lab": "^4.0.0-alpha.16",
     "@material-ui/styles": "^4.0.0",
+    "acorn": "^6.4.1",
     "gh-pages": "^2.0.1",
     "numeral": "^2.0.6",
     "opencollective-postinstall": "^2.0.2",
