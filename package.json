@@ -5,7 +5,7 @@
   "homepage": "https://barrelcocktail.co",
   "dependencies": {
     "@material-ui/core": "^4.1.1",
-    "@material-ui/icons": "^4.2.0",
+    "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.16",
     "@material-ui/styles": "^4.0.0",
     "acorn": "^6.4.1",

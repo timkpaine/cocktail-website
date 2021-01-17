@@ -48,7 +48,7 @@ const Footer = (props) => {
       <Grid item xs={12} className={classes.flex}>
         <Typography variant="body1" color="inherit" noWrap>
           <Link to="/" className={classes.link}>
-          <img width={140} height={30} src="logo.png" alt="" />
+            <img width={140} height={30} src="logo.png" alt="" />
           </Link>
         </Typography>
         <Typography variant="body1" color="inherit" noWrap>

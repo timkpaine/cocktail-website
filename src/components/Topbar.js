@@ -7,7 +7,7 @@ import { Link, withRouter } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
-import AppBar from '@material-ui/core/AppBar';
+import { AppBar } from '@material-ui/core';
 
 const styles = (theme) => ({
   appBar: {
@@ -17,7 +17,7 @@ const styles = (theme) => ({
     color: theme.palette.primary.light,
   },
   inline: {
-    display: 'inline'
+    display: 'inline',
   },
   flex: {
     display: 'flex',
@@ -55,8 +55,8 @@ class Topbar extends Component {
   constructor() {
     super();
     this.state = {
-      value: 0,
-      menuDrawer: false,
+      // value: 0,
+      // menuDrawer: false,
     };
   }
 
@@ -64,17 +64,17 @@ class Topbar extends Component {
     window.scrollTo(0, 0);
   }
 
-  handleChange = (event, value) => {
-    this.setState({ value });
-  }
+  // handleChange = (event, value) => {
+  //   this.setState({ value });
+  // }
 
-  mobileMenuOpen = () => {
-    this.setState({ menuDrawer: true });
-  }
+  // mobileMenuOpen = () => {
+  //   this.setState({ menuDrawer: true });
+  // }
 
-  mobileMenuClose = () => {
-    this.setState({ menuDrawer: false });
-  }
+  // mobileMenuClose = () => {
+  //   this.setState({ menuDrawer: false });
+  // }
 
   current = () => {
     const { currentPath } = this.props;
@@ -102,10 +102,10 @@ class Topbar extends Component {
               { !noTabs && (
                 <>
                   <div className={classes.productLogo}>
-                      <Typography>
-                        Barrel Cocktail Co.
-                      </Typography>
-                    </div>
+                    <Typography>
+                      Barrel Cocktail Co.
+                    </Typography>
+                  </div>
                 </>
               )}
             </Grid>
@@ -120,7 +120,7 @@ Topbar.propTypes = {
   classes: PropTypes.object.isRequired,
   currentPath: PropTypes.string,
   noTabs: PropTypes.bool,
-  location: PropTypes.object.isRequired,
+  // location: PropTypes.object.isRequired,
 };
 
 Topbar.defaultProps = {
@@ -128,4 +128,4 @@ Topbar.defaultProps = {
   noTabs: false,
 };
 
-  export default withRouter(withStyles(styles)(Topbar));
+export default withRouter(withStyles(styles)(Topbar));
