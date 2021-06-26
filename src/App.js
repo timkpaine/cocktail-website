@@ -17,7 +17,6 @@ const theme = responsiveFontSizes(createMuiTheme({
   },
 }));
 
-
 const App = () => (
   <div>
     <ThemeProvider theme={theme}>
