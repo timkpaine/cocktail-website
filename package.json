@@ -7,8 +7,8 @@
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
-    "fix": "eslint src/**/*.js src/**/**/*.js --fix",
-    "lint": "eslint src/**/*.js src/**/**/*.js",
+    "fix": "yarn lint --fix",
+    "lint": "eslint src/",
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "test": "CI=true react-scripts test"
