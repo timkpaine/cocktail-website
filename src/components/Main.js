@@ -200,7 +200,7 @@ class Main extends Component {
                 </div>
                 <div className={classes.box}>
                   <Typography variant="h4" className={classes.title} gutterBottom>
-                    Launching in 2020
+                    Launching in 2021
                   </Typography>
                   <Typography variant="subtitle1" gutterBottom color="primary">
                     Sign up to receive more information about our our first releases.
