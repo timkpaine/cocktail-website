@@ -50,5 +50,8 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "resolutions": {
+    "set-value": "^4.0.1"
   }
 }
