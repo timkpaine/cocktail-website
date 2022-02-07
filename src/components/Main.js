@@ -1,47 +1,47 @@
 /* eslint-disable react/forbid-prop-types */
 /* eslint-disable react/no-unused-state */
-import { withRouter } from 'react-router-dom';
-import PropTypes from 'prop-types';
-import { Button, CssBaseline } from '@material-ui/core';
+import {withRouter} from "react-router-dom";
+import PropTypes from "prop-types";
+import {Button, CssBaseline} from "@material-ui/core";
 
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import withStyles from '@material-ui/styles/withStyles';
-import React, { Component } from 'react';
+import Grid from "@material-ui/core/Grid";
+import Paper from "@material-ui/core/Paper";
+import Typography from "@material-ui/core/Typography";
+import withStyles from "@material-ui/styles/withStyles";
+import React, {Component} from "react";
 
-import Topbar from './Topbar';
-import Footer from './Footer';
+import Topbar from "./Topbar";
+import Footer from "./Footer";
 
 const styles = (theme) => ({
   root: {
     flexGrow: 1,
     minHeight: 1000,
-    overflow: 'hidden',
-    background: 'url(background.jpg) no-repeat',
-    backgroundSize: 'cover',
+    overflow: "hidden",
+    background: "url(background.jpg) no-repeat",
+    backgroundSize: "cover",
   },
   grid: {
     marginTop: 10,
     padding: 0,
-    [theme.breakpoints.down('sm')]: {
-      width: 'calc(100% - 20px)',
+    [theme.breakpoints.down("sm")]: {
+      width: "calc(100% - 20px)",
     },
   },
   paperMain: {
     minHeight: 500,
-    width: '100%',
-    textAlign: 'left',
+    width: "100%",
+    textAlign: "left",
     color: theme.palette.text.secondary,
-    display: 'flex',
-    backgroundColor: 'rgb(0, 0, 0, .7)',
+    display: "flex",
+    backgroundColor: "rgb(0, 0, 0, .7)",
   },
   paper: {
     minHeight: 450,
-    textAlign: 'left',
+    textAlign: "left",
     color: theme.palette.secondary.dark,
     padding: 10,
-    backgroundColor: 'rgb(0, 0, 0, .7)',
+    backgroundColor: "rgb(0, 0, 0, .7)",
     // backgroundColor: theme.palette.secondary.dark,
   },
   mainTitle: {
@@ -60,66 +60,66 @@ const styles = (theme) => ({
     color: theme.palette.primary.light,
   },
   rangeLabel: {
-    display: 'flex',
-    justifyContent: 'space-between',
+    display: "flex",
+    justifyContent: "space-between",
     paddingTop: theme.spacing(2),
   },
   topBar: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
     marginTop: 32,
   },
   outlinedButton: {
-    textTransform: 'uppercase',
+    textTransform: "uppercase",
     margin: theme.spacing(1),
   },
   actionButton: {
-    textTransform: 'uppercase',
+    textTransform: "uppercase",
     margin: theme.spacing(1),
     width: 152,
   },
   blockCenter: {
     padding: theme.spacing(2),
-    textAlign: 'center',
+    textAlign: "center",
   },
   block: {
     padding: theme.spacing(2),
   },
   box: {
     marginBottom: 40,
-    margin: 'auto',
-    width: '80%',
+    margin: "auto",
+    width: "80%",
   },
   boxMain: {
-    width: '100%',
+    width: "100%",
     minHeight: 300,
-    margin: 'auto',
-    textAlign: 'center',
+    margin: "auto",
+    textAlign: "center",
     maxWidth: 1000,
   },
   drinkList: {
-    display: 'flex',
-    flexDirection: 'column',
+    display: "flex",
+    flexDirection: "column",
   },
   inlining: {
-    display: 'inline-block',
+    display: "inline-block",
     marginRight: 10,
   },
   buttonBar: {
-    display: 'flex',
-    justifyContent: 'flex-end',
+    display: "flex",
+    justifyContent: "flex-end",
   },
   noBorder: {
-    borderBottomStyle: 'hidden',
+    borderBottomStyle: "hidden",
   },
   loadingState: {
     opacity: 0.05,
   },
   loadingMessage: {
-    position: 'absolute',
-    top: '40%',
-    left: '40%',
+    position: "absolute",
+    top: "40%",
+    left: "40%",
   },
 });
 
@@ -133,18 +133,8 @@ class Main extends Component {
 
   componentDidMount() {}
 
-  openContactDialog = () => {
-    this.setState({ contactDialog: true });
-  }
-
-  dialogClose = () => {
-    this.setState({
-      contactDialog: false,
-    });
-  }
-
   render() {
-    const { classes } = this.props;
+    const {classes} = this.props;
     return (
       <>
         <CssBaseline />
@@ -154,7 +144,7 @@ class Main extends Component {
             <Grid item xs={12}>
               <Paper className={classes.paperMain}>
                 <div className={classes.boxMain}>
-                  <Typography style={{ fontWeight: 'bold' }} variant="h2" className={classes.mainTitle} gutterBottom>
+                  <Typography style={{fontWeight: "bold"}} variant="h2" className={classes.mainTitle} gutterBottom>
                     Barrel Aged
                   </Typography>
                   <Typography variant="h4" color="secondary" className={classes.mainSubTitle} gutterBottom>
@@ -174,29 +164,20 @@ class Main extends Component {
                     <br />
                     <br />
                     <div className={classes.drinkList}>
-                      <span style={{ marginLeft: 20 }}>
-                        <strong>Old Fashioned</strong>
-                        {' '}
-                        - Rye Whiskey, Tiple Sec, Aromatic Bitters, Orange Bitters (Aged 1 year equivalent)
+                      <span style={{marginLeft: 20}}>
+                        <strong>Old Fashioned</strong> - Rye Whiskey, Tiple Sec, Aromatic Bitters, Orange Bitters (Aged 1 year equivalent)
                       </span>
-                      <span style={{ marginLeft: 20 }}>
-                        <strong>Manhattan</strong>
-                        {' '}
-                        - Bourbon, Sweet Vermouth, Tiple Sec, Aromatic Bitters, Orange Bitters (Aged 6 mo eq.)
+                      <span style={{marginLeft: 20}}>
+                        <strong>Manhattan</strong> - Bourbon, Sweet Vermouth, Tiple Sec, Aromatic Bitters, Orange Bitters (Aged 6 mo eq.)
                       </span>
-                      <span style={{ marginLeft: 20 }}>
-                        <strong>Negroni</strong>
-                        {' '}
-                        - Gin, Campari, Sweet Vermouth (Aged 1 yr eq.)
+                      <span style={{marginLeft: 20}}>
+                        <strong>Negroni</strong> - Gin, Campari, Sweet Vermouth (Aged 1 yr eq.)
                       </span>
-                      <span style={{ marginLeft: 20 }}>
-                        <strong>Boulevardier</strong>
-                        {' '}
-                        - Bourbon, Campari, Sweet Vermouth (Aged 1 yr eq.)
+                      <span style={{marginLeft: 20}}>
+                        <strong>Boulevardier</strong> - Bourbon, Campari, Sweet Vermouth (Aged 1 yr eq.)
                       </span>
                     </div>
                   </Typography>
-
                 </div>
                 <div className={classes.box}>
                   <Typography variant="h4" className={classes.title} gutterBottom>

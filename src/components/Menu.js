@@ -1,7 +1,7 @@
 const Menu = [
   {
-    label: 'Home',
-    pathname: '/',
+    label: "Home",
+    pathname: "/",
   },
 ];
 
