@@ -1,9 +1,9 @@
 /* eslint-disable react/forbid-prop-types */
-import React from 'react';
-import PropTypes from 'prop-types';
-import withStyles from '@material-ui/styles/withStyles';
-import Typography from '@material-ui/core/Typography';
-import { withRouter } from 'react-router-dom';
+import React from "react";
+import PropTypes from "prop-types";
+import withStyles from "@material-ui/styles/withStyles";
+import Typography from "@material-ui/core/Typography";
+import {withRouter} from "react-router-dom";
 
 const styles = (theme) => ({
   sectionContainer: {
@@ -11,12 +11,12 @@ const styles = (theme) => ({
     marginBottom: theme.spacing(4),
   },
   title: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
 });
 
-const SectionHeader = (props) => {
-  const { classes, title, subtitle } = props;
+function SectionHeader(props) {
+  const {classes, title, subtitle} = props;
   return (
     <div className={classes.sectionContainer}>
       <Typography variant="subtitle1" className={classes.title}>
@@ -27,7 +27,7 @@ const SectionHeader = (props) => {
       </Typography>
     </div>
   );
-};
+}
 
 SectionHeader.propTypes = {
   classes: PropTypes.object.isRequired,

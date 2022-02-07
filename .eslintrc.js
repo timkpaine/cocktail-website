@@ -1,46 +1,76 @@
 module.exports = {
+  parser: "@babel/eslint-parser",
+  extends: [
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier",
+    "plugin:json/recommended",
+  ],
+  plugins: ["prettier", "react", "jest"],
   env: {
     browser: true,
+    commonjs: true,
     es6: true,
-    'jest/globals': true,
+    node: true,
+    jasmine: true,
+    jest: true,
+    "jest/globals": true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-  },
-  parser: 'babel-eslint',
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 2018,
-    sourceType: 'module',
+    ecmaVersion: 2017,
+    ecmaFeatures: {},
+    sourceType: "module",
+    experimentalObjectRestSpread: true,
   },
-  plugins: [
-    'jest',
-    'react',
-  ],
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
+  },
   settings: {
-    'import/resolver': {
+    "import/resolver": {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
     },
   },
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'max-len': [
-      'error', 200, 2, {
-        ignoreUrls: true,
-        ignoreComments: false,
-        ignoreRegExpLiterals: true,
-        ignoreStrings: false,
-        ignoreTemplateLiterals: false,
+    "prettier/prettier": [
+      "error",
+      {
+        printWidth: 200,
+        tabWidth: 2,
+        bracketSpacing: false,
       },
     ],
+    "max-len": [
+      "warn",
+      {
+        code: 200,
+        comments: 200,
+        ignoreTrailingComments: true,
+      },
+    ],
+    camelcase: "off",
+    "class-methods-use-this": "off",
+    "constructor-super": "error",
+    indent: "off",
+    "linebreak-style": ["error", "unix"],
+    "no-const-assign": "error",
+    "no-nested-ternary": "warn",
+    "no-this-before-super": "error",
+    "no-undef": "error",
+    "no-underscore-dangle": "off",
+    "no-unreachable": "error",
+    "no-unused-vars": "warn",
+    "object-curly-spacing": "off",
+    quotes: "off",
+    "spaced-comment": "off",
+    "valid-typeof": "error",
+
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+
+    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
   },
 };
