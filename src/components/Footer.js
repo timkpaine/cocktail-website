@@ -52,7 +52,7 @@ const Footer = (props) => {
           </Link>
         </Typography>
         <Typography variant="body1" color="inherit" noWrap>
-          <span>© 2021</span>
+          <span>© 2022</span>
         </Typography>
         <Typography variant="body1" color="inherit" noWrap>
           <span>barrelcocktail.co</span>
