@@ -1,50 +1,46 @@
 /* eslint-disable react/forbid-prop-types */
-import React from 'react';
-import PropTypes from 'prop-types';
-import withStyles from '@material-ui/styles/withStyles';
-import { Link, withRouter } from 'react-router-dom';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
+import React from "react";
+import PropTypes from "prop-types";
+import withStyles from "@material-ui/styles/withStyles";
+import {Link, withRouter} from "react-router-dom";
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
 
 const styles = (theme) => ({
   footer: {
-    position: 'relative',
+    position: "relative",
     bottom: 0,
-    width: '100%',
-    boxShadow: 'none',
+    width: "100%",
+    boxShadow: "none",
     backgroundColor: theme.palette.secondary.dark,
     color: theme.palette.primary.light,
   },
   flex: {
-    display: 'flex',
+    display: "flex",
     padding: 5,
-    margin: 'auto',
-    width: '95%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
+    margin: "auto",
+    width: "95%",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
   },
   link: {
-    textDecoration: 'none',
-    color: 'inherit',
+    textDecoration: "none",
+    color: "inherit",
   },
   productLogo: {
-    display: 'inline-block',
+    display: "inline-block",
     borderLeft: `1px solid ${theme.palette.grey.A100}`,
     marginLeft: 32,
     paddingLeft: 24,
-    [theme.breakpoints.up('md')]: { paddingTop: '1.5em' },
+    [theme.breakpoints.up("md")]: {paddingTop: "1.5em"},
   },
 });
 
-const Footer = (props) => {
-  const { classes } = props;
+function Footer(props) {
+  const {classes} = props;
   return (
-    <div
-      position="absolute"
-      color="default"
-      className={classes.footer}
-    >
+    <div position="absolute" color="default" className={classes.footer}>
       <Grid item xs={12} className={classes.flex}>
         <Typography variant="body1" color="inherit" noWrap>
           <Link to="/" className={classes.link}>
@@ -60,7 +56,7 @@ const Footer = (props) => {
       </Grid>
     </div>
   );
-};
+}
 
 Footer.propTypes = {
   classes: PropTypes.object.isRequired,

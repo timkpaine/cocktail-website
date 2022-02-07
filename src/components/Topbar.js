@@ -1,53 +1,53 @@
 /* eslint-disable react/forbid-prop-types */
 /* eslint-disable max-len */
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import withStyles from '@material-ui/styles/withStyles';
-import { Link, withRouter } from 'react-router-dom';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import Toolbar from '@material-ui/core/Toolbar';
-import { AppBar } from '@material-ui/core';
+import React, {Component} from "react";
+import PropTypes from "prop-types";
+import withStyles from "@material-ui/styles/withStyles";
+import {Link, withRouter} from "react-router-dom";
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
+import Toolbar from "@material-ui/core/Toolbar";
+import {AppBar} from "@material-ui/core";
 
 const styles = (theme) => ({
   appBar: {
-    position: 'relative',
-    boxShadow: 'none',
+    position: "relative",
+    boxShadow: "none",
     backgroundColor: theme.palette.secondary.dark,
     color: theme.palette.primary.light,
   },
   inline: {
-    display: 'inline',
+    display: "inline",
   },
   flex: {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
   },
   link: {
-    textDecoration: 'none',
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    color: 'inherit',
-    height: '100%',
+    textDecoration: "none",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    color: "inherit",
+    height: "100%",
   },
   productLogo: {
-    display: 'inline-block',
+    display: "inline-block",
     borderLeft: `1px solid ${theme.palette.grey.A100}`,
     marginLeft: 32,
     paddingLeft: 24,
   },
   tagline: {
-    display: 'inline-block',
+    display: "inline-block",
     marginLeft: 10,
   },
   iconContainer: {
-    display: 'block',
-    marginLeft: 'auto',
+    display: "block",
+    marginLeft: "auto",
   },
   iconButton: {
-    float: 'right',
+    float: "right",
   },
 });
 
@@ -76,16 +76,8 @@ class Topbar extends Component {
   //   this.setState({ menuDrawer: false });
   // }
 
-  current = () => {
-    const { currentPath } = this.props;
-    if (currentPath === '/home') {
-      return 0;
-    }
-    return 0;
-  }
-
   render() {
-    const { classes, noTabs } = this.props;
+    const {classes, noTabs} = this.props;
 
     return (
       <AppBar position="absolute" color="default" className={classes.appBar}>
@@ -99,14 +91,10 @@ class Topbar extends Component {
                   </Link>
                 </Typography>
               </div>
-              { !noTabs && (
-                <>
-                  <div className={classes.productLogo}>
-                    <Typography>
-                      Barrel Cocktail Co.
-                    </Typography>
-                  </div>
-                </>
+              {!noTabs && (
+                <div className={classes.productLogo}>
+                  <Typography>Barrel Cocktail Co.</Typography>
+                </div>
               )}
             </Grid>
           </Grid>
@@ -118,13 +106,11 @@ class Topbar extends Component {
 
 Topbar.propTypes = {
   classes: PropTypes.object.isRequired,
-  currentPath: PropTypes.string,
   noTabs: PropTypes.bool,
   // location: PropTypes.object.isRequired,
 };
 
 Topbar.defaultProps = {
-  currentPath: '/',
   noTabs: false,
 };
 
