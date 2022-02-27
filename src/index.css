@@ -1,7 +1,12 @@
-
-body {
+html, body {
   /* position: absolute; */
-  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
   box-sizing:border-box;
   overflow-y: scroll;
   overflow-x: none;
@@ -14,6 +19,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #000;
   color: white;
+}
+
+div#root {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
 }
 
 ::-webkit-scrollbar {

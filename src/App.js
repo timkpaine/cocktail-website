@@ -1,13 +1,13 @@
 import "./App.css";
 
 import {grey} from "@material-ui/core/colors";
-import {createMuiTheme, responsiveFontSizes, ThemeProvider} from "@material-ui/core/styles";
+import {createTheme, responsiveFontSizes, ThemeProvider} from "@material-ui/core/styles";
 import React from "react";
 
 import Routes from "./routes";
 
 const theme = responsiveFontSizes(
-  createMuiTheme({
+  createTheme({
     palette: {
       secondary: {light: "#000", main: "#000", dark: "#000"},
       primary: {light: grey[50], main: grey[100], dark: grey[20]},
@@ -21,11 +21,9 @@ const theme = responsiveFontSizes(
 
 function App() {
   return (
-    <div>
-      <ThemeProvider theme={theme}>
-        <Routes />
-      </ThemeProvider>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Routes />
+    </ThemeProvider>
   );
 }
 

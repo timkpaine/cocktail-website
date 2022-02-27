@@ -1,6 +1,6 @@
 /* eslint-disable react/forbid-prop-types */
 /* eslint-disable react/no-unused-state */
-import {withRouter} from "react-router-dom";
+import {withRouter, Link} from "react-router-dom";
 import PropTypes from "prop-types";
 import {Button, CssBaseline} from "@material-ui/core";
 
@@ -15,14 +15,18 @@ import Footer from "./Footer";
 
 const styles = (theme) => ({
   root: {
+    display: "flex",
+    flexDirection: "column",
     flexGrow: 1,
     minHeight: 1000,
     overflow: "hidden",
     background: "url(background.jpg) no-repeat",
     backgroundSize: "cover",
+    height: "100%",
   },
   grid: {
     marginTop: 10,
+    flexGrow: 1,
     padding: 0,
     [theme.breakpoints.down("sm")]: {
       width: "calc(100% - 20px)",
@@ -31,6 +35,8 @@ const styles = (theme) => ({
   paperMain: {
     minHeight: 500,
     width: "100%",
+    height: "100%",
+    flexGrow: 1,
     textAlign: "left",
     color: theme.palette.text.secondary,
     display: "flex",
@@ -140,7 +146,7 @@ class Main extends Component {
         <CssBaseline />
         <Topbar />
         <div className={classes.root}>
-          <Grid container justify="center">
+          <Grid style={{height: "100%"}} container justifyContent="center">
             <Grid item xs={12}>
               <Paper className={classes.paperMain}>
                 <div className={classes.boxMain}>
@@ -178,6 +184,13 @@ class Main extends Component {
                       </span>
                     </div>
                   </Typography>
+                  <div className={classes.buttonBar}>
+                    <Link to="/cocktails">
+                      <Button color="primary" variant="outlined" className={classes.actionButton}>
+                        More Cocktails
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
                 <div className={classes.box}>
                   <Typography variant="h4" className={classes.title} gutterBottom>
