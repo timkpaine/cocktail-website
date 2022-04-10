@@ -19,7 +19,7 @@ const styles = (theme) => ({
     flexDirection: "column",
     flexGrow: 1,
     minHeight: 1000,
-    overflow: "hidden",
+    // overflow: "scroll",
     background: "url(background.jpg) no-repeat",
     backgroundSize: "cover",
     height: "100%",
@@ -199,13 +199,13 @@ class Main extends Component {
                   <Typography variant="subtitle1" gutterBottom color="primary">
                     Sign up to receive more information about our our first releases.
                   </Typography>
-                </div>
-                <div className={classes.buttonBar}>
-                  <a href="mailto:timothy.k.paine@gmail.com">
-                    <Button color="primary" variant="outlined" className={classes.actionButton}>
-                      More Information
-                    </Button>
-                  </a>
+                  <div className={classes.buttonBar}>
+                    <a href="mailto:timothy.k.paine@gmail.com">
+                      <Button color="primary" variant="outlined" className={classes.actionButton}>
+                        More Information
+                      </Button>
+                    </a>
+                  </div>
                 </div>
               </Paper>
             </Grid>
