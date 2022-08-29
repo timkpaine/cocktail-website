@@ -104,7 +104,16 @@ class Cocktails extends Component {
                   <li>Splash of Sugar/Simple Syrup</li>
                   <li>Garnish with a lime wheel</li>
                 </ul>
-
+                <Typography variant="h4" color="primary">
+                  Alitalia
+                </Typography>
+                <ul>
+                  <li>1.5oz gin</li>
+                  <li>1 oz Bergamot Liqueur (Italicus / Rosolio Di Bergamotto)</li>
+                  <li>.5oz Maraschino Liqueur</li>
+                  <li>Half squeezed lemon</li>
+                  <li>Dash of sugar / simple syrup</li>
+                </ul>
                 <Typography variant="h4" color="primary">
                   Oil Slick
                 </Typography>
