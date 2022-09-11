@@ -10,7 +10,7 @@
 	</div>
 	<div class="grid grid-cols-2 gap-6">
 		<div class="flex flex-col items-center bg-zinc-900 rounded-lg border shadow-md">
-			<div class="flex flex-col justify-between p-4 leading-normal">
+			<div class="flex flex-col justify-between p-4 leading-normal w-full">
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Old Fashioned</h5>
 				<p class="mb-3 font-normal text-white">
 					Rye Whiskey, Tiple Sec, Aromatic Bitters, Orange Bitters
@@ -19,7 +19,7 @@
 			</div>
 		</div>
 		<div class="flex flex-col items-center bg-zinc-900 rounded-lg border shadow-md">
-			<div class="flex flex-col justify-between p-4 leading-normal">
+			<div class="flex flex-col justify-between p-4 leading-normal w-full">
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Manhattan</h5>
 				<p class="mb-3 font-normal text-white">
 					Bourbon, Sweet Vermouth, Tiple Sec, Aromatic Bitters, Orange Bitters
