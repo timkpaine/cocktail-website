@@ -41,6 +41,30 @@
 
 			<div class="flex flex-col items-center bg-zinc-700 text-white rounded-lg border shadow-md">
 				<div class="flex flex-col w-full justify-between p-4 leading-normal">
+					<h1 class="text-xl font-bold">Isla Bonita</h1>
+					<ul>
+						<li>2 parts Bacardi Dragonberry</li>
+						<li>1 part Midori</li>
+						<li>1 part Triple Sec</li>
+						<li>2 parts Pineapple Juice</li>
+						<li>1 part Coconut Cream</li>
+						<li>Splash of Grenadine</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="flex flex-col items-center bg-zinc-700 text-white rounded-lg border shadow-md">
+				<div class="flex flex-col w-full justify-between p-4 leading-normal">
+					<h1 class="text-xl font-bold">Springbok Shot</h1>
+					<ul>
+						<li>1 part Crème de Menth</li>
+						<li>1 part Amarula</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="flex flex-col items-center bg-zinc-700 text-white rounded-lg border shadow-md">
+				<div class="flex flex-col w-full justify-between p-4 leading-normal">
 					<h1 class="text-xl font-bold">Oil Slick</h1>
 					<ul>
 						<li>2 parts Gold Rum</li>
@@ -101,20 +125,6 @@
 						<li>1 part Pineapple Juice</li>
 						<li>1 part Light Rum</li>
 						<li>1 part Malibu</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="flex flex-col items-center bg-zinc-700 text-white rounded-lg border shadow-md">
-				<div class="flex flex-col w-full justify-between p-4 leading-normal">
-					<h1 class="text-xl font-bold">Isla Bonita</h1>
-					<ul>
-						<li>2 parts Bacardi Dragonberry</li>
-						<li>1 part Midori</li>
-						<li>1 part Triple Sec</li>
-						<li>2 parts Pineapple Juice</li>
-						<li>1 part Coconut Cream</li>
-						<li>Splash of Grenadine</li>
 					</ul>
 				</div>
 			</div>
