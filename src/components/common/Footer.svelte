@@ -1,6 +1,6 @@
 <footer class="text-center bg-black text-white">
 	<div class="text-center">
-		<h2 class="text-3xl font-bold">Launching in 2022</h2>
+		<h2 class="text-3xl font-bold">Launching in 2023</h2>
 		<h4 class="text-xl">Sign up to receive more information about our our first releases.</h4>
 	</div>
 	<div class="container px-6 pt-6 pb-8">
