@@ -57,7 +57,7 @@
 				<div class="flex flex-col w-full justify-between p-4 leading-normal">
 					<h1 class="text-xl font-bold">Springbok Shot</h1>
 					<ul>
-						<li>1 part Crème de Menth</li>
+						<li>1 part Crème de Menthe</li>
 						<li>1 part Amarula</li>
 					</ul>
 				</div>
