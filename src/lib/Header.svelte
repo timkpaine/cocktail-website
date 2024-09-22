@@ -16,7 +16,7 @@
 			<div class="md:hidden flex items-center">
 				<button class="outline-none mobile-menu-button">
 					<svg
-						class=" w-6 h-6 text-slate-300 hover:text-slate-500 "
+						class=" w-6 h-6 text-slate-300 hover:text-slate-500"
 						x-show="!showMenu"
 						fill="none"
 						stroke-linecap="round"
@@ -36,21 +36,19 @@
 	<div class="hidden mobile-menu">
 		<ul class="">
 			<li class="active">
-				<a href="index.html" class="block text-sm px-2 py-4 text-white bg-slate-500 font-semibold"
-					>Home</a
-				>
+				<a href="/" class="block text-sm px-2 py-4 text-white bg-slate-500 font-semibold">Home</a>
 			</li>
 			<li>
 				<a
-					href="#cocktails"
+					href="/cocktails"
 					class="block text-sm px-2 py-4 text-slate-200 hover:bg-slate-500 transition duration-300"
 					>Cocktails</a
 				>
 			</li>
 			<li>
 				<a
-					href="#about"
-					class="block text-sm px-2 py-4 text-slate-200  hover:bg-slate-500 transition duration-300"
+					href="/#more"
+					class="block text-sm px-2 py-4 text-slate-200 hover:bg-slate-500 transition duration-300"
 					>About</a
 				>
 			</li>
