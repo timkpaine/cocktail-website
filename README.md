@@ -1,3 +1,3 @@
-# Barrel Cocktail Co
+# Dau Dev
 
-[![Build Status](https://github.com/timkpaine/cocktail-website/workflows/Build%20Status/badge.svg?branch=main)](https://github.com/timkpaine/cocktail-website/actions?query=workflow%3A%22Build+Status%22)
+[![Build Status](https://github.com/dau-dev/website/actions/workflows/build.yml/badge.svg?branch=main&event=push)](https://github.com/dau-dev/website/actions/workflows/build.yml)

@@ -1,18 +1,19 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-const colors = require('tailwindcss/colors');
+/** @type {import('tailwindcss').Config} */
+import defaultTheme from 'tailwindcss/defaultTheme';
+import colors from 'tailwindcss/colors';
 
-const config = {
-	content: ['./src/**/*.{html,js,svelte}'],
+export default {
+	content: ['./src/**/*.{html,js,svelte,ts}'],
 	darkMode: 'class',
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['montserrat', 'Roboto', ...defaultTheme.fontFamily.sans]
+				sans: ['Montserrat', 'Roboto', ...defaultTheme.fontFamily.sans]
 			},
 			colors: {
 				transparent: 'transparent',
 				current: 'currentColor',
-				darkblue: '#00101a',
+				dark: '#111111',
 				indigo: colors.indigo,
 				blue: colors.blue,
 				red: colors.red,
@@ -23,7 +24,7 @@ const config = {
 				purple: colors.purple,
 				pink: colors.pink,
 				slate: colors.slate,
-				zinc: colors.zinc,
+				gray: colors.gray,
 				neutral: colors.neutral,
 				stone: colors.stone,
 				amber: colors.amber,
@@ -43,18 +44,16 @@ const config = {
 					500: '#d95156',
 					600: '#c0373b',
 					700: '#982a2c',
-					800: '#666666',
-					900: '#444444'
+					800: '#6d1d1e',
+					900: '#431211'
 				}
 			}
 		}
 	},
 	plugins: [
-		require('@tailwindcss/forms'),
-		require('@tailwindcss/line-clamp'),
-		require('@tailwindcss/typography'),
-		require('@tailwindcss/aspect-ratio')
+		// import('@tailwindcss/forms'),
+		// import('@tailwindcss/line-clamp'),
+		// import('@tailwindcss/typography'),
+		// import('@tailwindcss/aspect-ratio')
 	]
 };
-
-module.exports = config;
