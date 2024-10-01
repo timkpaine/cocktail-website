@@ -186,6 +186,17 @@
 					</ul>
 				</div>
 			</div>
+			<div class="flex flex-col items-center bg-zinc-700 text-white rounded-lg border shadow-md">
+				<div class="flex flex-col w-full justify-between p-4 leading-normal">
+					<h1 class="text-xl font-bold">"Secret Cocktail"</h1>
+					<ul>
+						<li>2 parts Gin</li>
+						<li>1 part Italicus</li>
+						<li>1 part Lemon Juice</li>
+						<li>Garnish with Lavender</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</main>
 </div>
