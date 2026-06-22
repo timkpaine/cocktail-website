@@ -24,13 +24,13 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [20.x]
+        node-version: [22.x]
 
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v5
         with:
-          version: 9
+          version: 11
           package_json_file: package.json
       - run: pnpm install
       - run: npx playwright install
