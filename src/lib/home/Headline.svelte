@@ -1,3 +1,7 @@
+<script>
+	import { resolve } from '$app/paths';
+</script>
+
 <section class="text-zinc-800 text-center">
 	<div
 		class="relative overflow-hidden bg-no-repeat"
@@ -30,7 +34,7 @@
 						class="inline-block px-7 py-3 bg-transparent text-white font-medium text-sm leading-snug uppercase rounded hover:text-black hover:bg-white focus:text-black focus:bg-white focus:outline-none focus:ring-0 active:text-black active:bg-white transition duration-150 ease-in-out"
 						data-mdb-ripple="true"
 						data-mdb-ripple-color="light"
-						href="cocktails"
+						href={resolve('/cocktails')}
 						role="button">Other cocktails</a
 					>
 				</div>

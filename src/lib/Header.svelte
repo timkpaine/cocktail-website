@@ -1,3 +1,7 @@
+<script>
+	import { resolve } from '$app/paths';
+</script>
+
 <!-- Navbar goes here -->
 <nav class="bg-black shadow-lg">
 	<div class="max-w-6xl mx-auto px-4">
@@ -5,7 +9,7 @@
 			<div class="flex space-x-7">
 				<div>
 					<!-- Website Logo -->
-					<a href="/" class="flex items-center py-4 px-2">
+					<a href={resolve('/')} class="flex items-center py-4 px-2">
 						<img src="/img/logo.png" alt="Logo" class="h-6 mr-2" />
 						<span class="text-slate-300 text-md border-l-2 pl-2">Barrel Cocktail Co.</span>
 					</a>
@@ -36,18 +40,20 @@
 	<div class="hidden mobile-menu">
 		<ul class="">
 			<li class="active">
-				<a href="/" class="block text-sm px-2 py-4 text-white bg-slate-500 font-semibold">Home</a>
+				<a href={resolve('/')} class="block text-sm px-2 py-4 text-white bg-slate-500 font-semibold"
+					>Home</a
+				>
 			</li>
 			<li>
 				<a
-					href="/cocktails"
+					href={resolve('/cocktails')}
 					class="block text-sm px-2 py-4 text-slate-200 hover:bg-slate-500 transition duration-300"
 					>Cocktails</a
 				>
 			</li>
 			<li>
 				<a
-					href="/#more"
+					href={resolve('/#more')}
 					class="block text-sm px-2 py-4 text-slate-200 hover:bg-slate-500 transition duration-300"
 					>About</a
 				>
