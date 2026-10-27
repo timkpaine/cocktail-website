@@ -7,7 +7,7 @@
 					<ul>
 						<li>2 parts Rye Whiskey</li>
 						<li>1 part Tentura</li>
-						<li>Splash Cointreau</li>
+						<li>1 splash of Cointreau</li>
 						<li>Angostura Bitters</li>
 					</ul>
 				</div>
@@ -20,7 +20,7 @@
 						<li>1 part White Rum</li>
 						<li>1 part Mastika</li>
 						<li>1 part Lime Juice</li>
-						<li>Splash of Sugar/Simple Syrup</li>
+						<li>1 splash of Sugar / Simple Syrup</li>
 						<li>Garnish with a lime wheel</li>
 					</ul>
 				</div>
@@ -30,11 +30,11 @@
 				<div class="flex flex-col w-full justify-between p-4 leading-normal">
 					<h1 class="text-xl font-bold">Alitalia</h1>
 					<ul>
-						<li>1.5oz gin</li>
+						<li>1.5 oz Gin</li>
 						<li>1 oz Bergamot Liqueur (Italicus / Rosolio Di Bergamotto)</li>
-						<li>.5oz Maraschino Liqueur</li>
-						<li>Half squeezed lemon</li>
-						<li>Dash of sugar / simple syrup</li>
+						<li>0.5 oz Maraschino Liqueur</li>
+						<li>Half squeezed Lemon</li>
+						<li>1 dash of Sugar / Simple Syrup</li>
 					</ul>
 				</div>
 			</div>
@@ -48,7 +48,7 @@
 						<li>1 part Triple Sec</li>
 						<li>2 parts Pineapple Juice</li>
 						<li>1 part Coconut Cream</li>
-						<li>Splash of Grenadine</li>
+						<li>1 splash of Grenadine</li>
 					</ul>
 				</div>
 			</div>
@@ -70,7 +70,7 @@
 						<li>2 parts Gold Rum</li>
 						<li>1 part Falernum</li>
 						<li>1 part Lime Juice</li>
-						<li>Spiced rum floater</li>
+						<li>Spiced Rum floater</li>
 						<li>Garnish with a lime wheel</li>
 					</ul>
 				</div>
@@ -97,7 +97,7 @@
 						<li>2 parts Spiced Rum</li>
 						<li>1 part Luxardo</li>
 						<li>4 parts Pineapple Juice</li>
-						<li>Splash of sugar / simple syrup</li>
+						<li>1 splash of Sugar / Simple Syrup</li>
 						<li>Angostura Bitters</li>
 					</ul>
 				</div>
@@ -112,7 +112,7 @@
 						<li>1 part Cointreau</li>
 						<li>1 part Lime Juice</li>
 						<li>4 parts Passion Fruit Juice</li>
-						<li>1 splash Grenadine</li>
+						<li>1 splash of Grenadine</li>
 					</ul>
 				</div>
 			</div>
@@ -133,12 +133,12 @@
 				<div class="flex flex-col w-full justify-between p-4 leading-normal">
 					<h1 class="text-xl font-bold">Summer Sangria</h1>
 					<ul>
-						<li>1 Bottle Lini Lambrusco</li>
+						<li>1 bottle Lini Lambrusco</li>
 						<li>3 parts Canton</li>
 						<li>3 parts Myer&apos;s Rum</li>
-						<li>2 parts St Germain</li>
-						<li>2 Tablespoons sugar</li>
-						<li>1/2 large orange</li>
+						<li>2 parts St. Germain</li>
+						<li>2 tablespoons Sugar</li>
+						<li>1/2 large Orange</li>
 					</ul>
 				</div>
 			</div>
@@ -149,9 +149,9 @@
 					<ul>
 						<li>2 parts Rum</li>
 						<li>1 part Tentura</li>
-						<li>1 part Grapefruit juice</li>
+						<li>1 part Grapefruit Juice</li>
 						<li>2 parts Ginger Beer</li>
-						<li>1 splash Cinnamon Syrup</li>
+						<li>1 splash of Cinnamon Syrup</li>
 						<li>1 part Mint</li>
 						<li>Angostura Bitters</li>
 					</ul>
@@ -174,12 +174,12 @@
 				<div class="flex flex-col w-full justify-between p-4 leading-normal">
 					<h1 class="text-xl font-bold">Chit Cha Toddy</h1>
 					<ul>
-						<li>3 parts Rye whiskey</li>
+						<li>3 parts Rye Whiskey</li>
 						<li>1 part Benedictine Liqueur</li>
 						<li>2 parts Lemon Juice</li>
 						<li>2 parts Ginger Syrup</li>
-						<li>Splash Honey</li>
-						<li>5 part Oolong Tea, hot-brewed</li>
+						<li>1 splash of Honey</li>
+						<li>5 parts Oolong Tea, hot-brewed</li>
 						<li>
 							Garnish with lemon half-wheels studded with cloves, mint leaves, and cinnamon sugar
 						</li>
@@ -194,6 +194,18 @@
 						<li>1 part Italicus</li>
 						<li>1 part Lemon Juice</li>
 						<li>Garnish with Lavender</li>
+					</ul>
+				</div>
+			</div>
+			<div class="flex flex-col items-center bg-zinc-700 text-white rounded-lg border shadow-md">
+				<div class="flex flex-col w-full justify-between p-4 leading-normal">
+					<h1 class="text-xl font-bold">Martinelli&apos;s Revenge</h1>
+					<ul>
+						<li>2 parts Dark Rum</li>
+						<li>1 part Light Rum</li>
+						<li>Sugar / Simple Syrup and Cinnamon OR Cinnamon Syrup</li>
+						<li>Angostura Bitters</li>
+						<li>1 splash of Grenadine</li>
 					</ul>
 				</div>
 			</div>
