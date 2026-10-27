@@ -201,8 +201,9 @@
 				<div class="flex flex-col w-full justify-between p-4 leading-normal">
 					<h1 class="text-xl font-bold">Martinelli&apos;s Revenge</h1>
 					<ul>
-						<li>2 parts Dark Rum</li>
+						<li>3 parts Dark Rum</li>
 						<li>1 part Light Rum</li>
+						<li>1 splash Laird's Applejack</li>
 						<li>Sugar / Simple Syrup and Cinnamon OR Cinnamon Syrup</li>
 						<li>Angostura Bitters</li>
 						<li>1 splash of Grenadine</li>
