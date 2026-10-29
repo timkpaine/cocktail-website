@@ -21,7 +21,6 @@
 				<button class="outline-none mobile-menu-button" aria-label="Toggle menu">
 					<svg
 						class=" w-6 h-6 text-slate-300 hover:text-slate-500"
-						x-show="!showMenu"
 						fill="none"
 						stroke-linecap="round"
 						stroke-linejoin="round"

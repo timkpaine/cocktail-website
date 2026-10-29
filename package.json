@@ -1,8 +1,16 @@
 {
 	"name": "barrelcocktail.co",
 	"version": "0.1.0",
+	"description": "Website for Barrel Cocktail Co.",
+	"packageManager": "pnpm@11.28.0",
+	"engines": {
+		"node": ">=22.17"
+	},
 	"type": "module",
 	"private": true,
+	"imports": {
+		"#lib/*": "./src/lib/*"
+	},
 	"scripts": {
 		"build": "vite build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -15,31 +23,28 @@
 		"preview": "vite preview",
 		"test": "pnpm run test:integration && pnpm run test:unit",
 		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"test:unit": "vitest run"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
 		"@playwright/test": "^1.56.1",
-		"@sveltejs/adapter-auto": "^7.0.1",
-		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/adapter-static": "^4.0.0",
 		"@sveltejs/kit": "^3.0.0",
-		"@sveltejs/vite-plugin-svelte": "^7.1.2",
-		"@tailwindcss/postcss": "^4.3.1",
+		"@sveltejs/vite-plugin-svelte": "^7.3.1",
+		"@tailwindcss/vite": "^4.3.3",
 		"@types/eslint": "^9.6.1",
-		"autoprefixer": "^10.4.21",
 		"eslint": "^10.5.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.19.0",
 		"globals": "^17.6.0",
-		"postcss": "^8.5.6",
 		"prettier": "^3.6.2",
 		"prettier-plugin-svelte": "^4.1.1",
-		"svelte": "^5.55.7",
+		"svelte": "^5.57.1",
 		"svelte-check": "^4.3.3",
 		"tailwindcss": "^4.3.1",
 		"typescript": "^6.0.3",
 		"typescript-eslint": "^8.46.2",
-		"vite": "^8.1.6",
+		"vite": "^8.3.1",
 		"vitest": "^4.1.11"
 	}
 }
