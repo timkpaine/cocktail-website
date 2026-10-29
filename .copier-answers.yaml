@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier
+_commit: 2d2a72ddeefb07f192c298b06213809a60dc9669
+_src_path: https://github.com/python-project-templates/base.git
+add_extension: site-sveltekit
+brand_name: Barrel Cocktail Co.
+github: timkpaine
+project_description: Website for Barrel Cocktail Co.
+project_name: cocktail-website
+site_adapter: static
+site_url: https://barrelcocktail.co

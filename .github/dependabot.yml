@@ -4,3 +4,23 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
+    groups:
+      github-actions:
+        patterns:
+          - '*'
+    labels:
+      - 'part: github_actions'
+
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    cooldown:
+      default-days: 7
+    groups:
+      javascript:
+        patterns:
+          - '*'
+    labels:
+      - 'lang: javascript'
+      - 'part: dependencies'
