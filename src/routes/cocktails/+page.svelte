@@ -199,7 +199,7 @@
 			</div>
 			<div class="flex flex-col items-center bg-zinc-700 text-white rounded-lg border shadow-md">
 				<div class="flex flex-col w-full justify-between p-4 leading-normal">
-					<h1 class="text-xl font-bold">Martinelli&apos;s Revenge</h1>
+					<h1 class="text-xl font-bold">Martinelli&apos;s Revenge (Winter Rum Punch)</h1>
 					<ul>
 						<li>3 parts Dark Rum</li>
 						<li>1 part Light Rum</li>
